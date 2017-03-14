@@ -1,0 +1,38 @@
+<?php include ("blocks/db.php");
+mysql_query("SET NAMES utf8;");
+$result = mysql_query("SELECT title,meta_d,meta_k,text FROM settings WHERE page='index'");
+$myrow = mysql_fetch_array($result);
+mysql_free_result($result);
+
+
+
+
+?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<table width="690" border="0" align="center">
+  <tr>
+    <td><img src="images/483263415-56a289905f9b58b7d0cbe601.jpg" width="1026" height="293" /></td>
+  </tr>
+  <tr>
+    <td><table width="1026" border="0" align="right">
+      <tr>
+        <td align="right"><?php echo $myrow['text']; ?></td>
+        <td align="right">2</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center">copy right @2017_ahmedfawzy</td>
+  </tr>
+</table>
+</body>
+</html>
