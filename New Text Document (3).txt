@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="resources/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/js/bootstrap.js"></script>
+        <title>phpweb</title>
+    </head>
+    <body>
+        <div class="container">
+        <header><img src="resources/image/header_bg.jpg" alt="logo">
+            <h2>welcom admin</h2>
+        </header>
+        <div class="clear"></div>
+        <div id="contents">
+            <aside>
+                <nav>
+                    <a class="btn-danger" href="">home page</a>
+                    <a class="btn-danger" href="">main settings</a>
+                    <a class="btn-danger" href="">sections</a>
+                    <a class="btn-danger" href="">pages</a>
+                    <a class="btn-danger" href="">comments</a>
+                    <a class="btn-danger" href="">library</a>
+                </nav>
+            </aside>
+            <section id="page">
+                <h1>pages here</h1>
+                
+            </section>
+        </div> 
+        <div class="clear"></div>
+        <footer>
+            <p>Copyright@ahmed</p>
+        </footer>
+        
+        <?php
+        // put your code here
+        ?>
+        </div>
+    </body>
+</html>
